@@ -2,12 +2,14 @@
 
 ## Environment vars
 
-`NODE_EUI`
+`NODE_TTN_EUI`
 
-`NODE_KEY`
+`NODE_TTN_KEY`
+
+`NODE_SCRIPTR_TOKEN`
 
 ./node_modules/.bin/nodemon
 
 ## Development
 
-`NODE_EUI=<eui from ttn> NODE_KEY=<key from ttn> ./node_modules/.bin/nodemon index.js`
+`NODE_TTN_EUI=<eui from ttn> NODE_TTN_KEY=<key from ttn> NODE_SCRIPTR_TOKEN=<token from scriptr> ./node_modules/.bin/nodemon index.js`

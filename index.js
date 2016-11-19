@@ -2,8 +2,8 @@ var ttn = require('ttn');
 
 var handleData = require('./handle-data');
 
-var appEUI = process.env.NODE_EUI;
-var accessKey = process.env.NODE_KEY;
+var appEUI = process.env.NODE_TTN_EUI;
+var accessKey = process.env.NODE_TTN_KEY;
 var client = new ttn.Client('staging.thethingsnetwork.org', appEUI, accessKey);
 
 client.on('uplink', function(msg) {

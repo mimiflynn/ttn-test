@@ -9,6 +9,7 @@
   "author": "mimiflynn@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "mqtt": "^2.1.3",
     "request": "^2.79.0",
     "ttn": "^1.3.2"
   },
