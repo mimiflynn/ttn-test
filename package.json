@@ -1,12 +1,12 @@
 {
-  "name": "ttn-boston-demo",
+  "name": "ttn-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "mimiflynn@gmail.com",
   "license": "MIT",
   "dependencies": {
     "ttn": "^1.3.2"
