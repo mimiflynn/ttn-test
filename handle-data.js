@@ -2,15 +2,13 @@ var request = require('request');
 
 var handleData = function (data) {
   console.log(data);
-  request({
-    method: 'POST',
-    url: 'https://api.scriptrapps.io/test',
+  request.post({
+    url: 'https://api.scriptrapps.io/opensensors',
     headers: {
-      Authorization: 'bearer ' + process.env.NODE_SCRIPTR_TOKEN
+      'Authorization': 'bearer ' + process.env.NODE_SCRIPTR_TOKEN
     },
-    body: data
-  },
-  function (error, response, body) {
+    body: JSON.stringify(data)
+  }, function (error, response, body) {
     if (error) {
       console.log('error');
     } else {
