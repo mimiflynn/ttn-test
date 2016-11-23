@@ -12,7 +12,7 @@ client.on('uplink', function(msg) {
 });
 
 client.on('error', function(err) {
-  console.log('[ERROR], err.message');
+  console.log('[ERROR] ', err.message);
 });
 
 client.on('activation', function(msg) {
